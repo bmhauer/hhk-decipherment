@@ -1,9 +1,12 @@
+This software is made available under a Creative Commons 
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) liscence.
+
 The spirit of this liscence is simple: you can download, run, modify, and 
 share this software (including any modified versions), as long as two 
 conditions are met:
 
-First, give credit to us, the authors. If your use of this software results
-in some writing or publication, do so by citing the following paper:
+First, give credit to us, the authors. Do so by citing the following paper in 
+your work:
   Bradley Hauer, Ryan Hayward, and Grzegorz Kondrak. 
   Solving Substitution Ciphers with Combined Language Models.
   The 25th International Conference on Computational Linguistics (COLING 2014)

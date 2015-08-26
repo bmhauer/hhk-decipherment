@@ -4,7 +4,7 @@ by Bradley Hauer, Ryan Hayward, and Greg Kondrak,
 The 25th International Conference on Computational Linguistics (COLING 2014)
 
 Included is a solver for monoalphabetic substitution ciphers (MASCs). If
-you've worked with decipherment or cryptography at all (or even if you 
+you've worked with decipherment or cryptography at all (and maybe even if you 
 haven't!), you've probably seen a MASC before. These ciphers work by
 replacing each letter in the message -- the PLAINTEXT -- with a unique
 symbol, such that two letters are replaced by the same symbol if, and
@@ -28,7 +28,7 @@ and 'masc_solver_mcts.pl'. The former is a little bit slower, but will make
 fewer mistakes on average. Both are implemented as Perl scripts, so run them
 with your favorite Perl interpreter.
 
-On GNU/Linux, try the following
+On GNU/Linux, first unpack all three 'tar.gz' files, and try the following:
 echo 'ziol ol q zgh ltektz dtllqut' | perl masc_solver_beamsearch.pl
 echo 'ziol ol q zgh ltektz dtllqut' | perl masc_solver_mcts.pl
 
@@ -38,4 +38,5 @@ output. This code has not been tested on operating systems other than
 GNU/Linux.
 
 The files beginning with "lmtrain_nyt_word" are derived from the New York
-Times corpus.
+Times corpus. Credit for the original NYT data goes to the authors of that
+corpus.
