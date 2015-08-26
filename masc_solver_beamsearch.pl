@@ -11,7 +11,6 @@ no warnings 'recursion';
 use ReadLM;
 use JMSmoothing;
 use FreqAnalysis;
-use PScore;
 use Utils;
 use NoSpace;
 
